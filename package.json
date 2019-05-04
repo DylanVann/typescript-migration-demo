@@ -1,0 +1,8 @@
+{
+  "name": "typescript-migration-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DylanVann/typescript-migration-demo.git",
+  "author": "Dylan Vann <dylan@dylanvann.com>",
+  "license": "MIT"
+}
