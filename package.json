@@ -4,5 +4,18 @@
   "main": "index.js",
   "repository": "https://github.com/DylanVann/typescript-migration-demo.git",
   "author": "Dylan Vann <dylan@dylanvann.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "check-ts": "jest test/check-ts.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^24.7.1",
+    "execa": "^1.0.0",
+    "find-yarn-workspace-root": "^1.2.1",
+    "jest": "^24.7.1",
+    "lodash": "^4.17.11",
+    "typescript": "^3.4.5"
+  }
 }
