@@ -1,16 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TypeScript errors are not increased 1`] = `4`;
+exports[`TypeScript errors are not increased 1`] = `2`;
 
 exports[`TypeScript errors are not increased 2`] = `
 Object {
   "src/example.ts": Array [
     "(4,13): error TS2554: Expected 2 arguments, but got 3.",
     "(6,18): error TS2554: Expected 2 arguments, but got 3.",
-  ],
-  "src/subtract.ts": Array [
-    "(1,34): error TS7006: Parameter 'a' implicitly has an 'any' type.",
-    "(1,37): error TS7006: Parameter 'b' implicitly has an 'any' type.",
   ],
 }
 `;
